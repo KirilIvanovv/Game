@@ -16,6 +16,6 @@ if (x == user_choise) {cout << "You win  "; flag=true; break;};
 if (x > user_choise) {cout << "More  ";}
 if (x <  user_choise) {cout << "Less  ";}  
     }
-if (flag==false) {cout << "YOU LOSE";};
+if (flag==false) {cout << "YOU LOSE! NUMBER was " << x;};  
  
 }
